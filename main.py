@@ -74,11 +74,12 @@ def refresh_animate(i):
     supRects = upper_sum(i)
     infRects = low_sum(i)
     ax.set_title(
-        f" Azul: \u03c3(f,P,{{\u03bei}}) = Σf(\u03bei)*\u0394xi, i = 1, 2,..., n"
+        "Autoras: Ana Laura Oliva y Karen Negrín Mazario   Grupo: C111"
+        + f" Azul: \u03c3(f,P,{{\u03bei}}) = Σf(\u03bei)*\u0394xi, i = 1, 2,..., n"
         + f"\nAzul claro: S(f,P) =ΣMi*\u0394xi  i = 1, 2,..., n;"
-        + r"\nAzul oscuro: s(f,P)= Σmi*\u0394xi  i = 1, 2,..., n;"
-        + f" con mi = inf(f(x), x \u2208[xi-1, xi]), Mi =sup(f(x), x \u2208[xi-1, xi])"
-        + f"\nn = {i}"
+        + f" Azul oscuro: s(f,P)= Σmi*\u0394xi  i = 1, 2,..., n;"
+        + f"\ncon mi = inf(f(x), x \u2208[xi-1, xi]), Mi =sup(f(x), x \u2208[xi-1, xi])"
+        + f" n = {i}"
     )
     for rectangle in rectangles:
         ax.add_patch(rectangle)

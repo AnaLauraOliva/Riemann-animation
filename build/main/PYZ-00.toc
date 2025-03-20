@@ -1,4 +1,4 @@
-('C:\\Antonella\\Games\\AM II RIEMANN ANIMATION\\build\\main\\PYZ-00.pyz',
+('C:\\Antonella\\Games\\Proyectos aparte\\Riemann git\\build\\main\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\usera\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
